@@ -1,0 +1,120 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-typography{
+	background-color: #f2f1fa;
+}
+
+.module-body{
+	margin-top: 20px;
+	background-color: #fff;
+  border-radius: 12px;
+  padding: 65px 77px;
+}
+
+.header-adjust{
+  border-bottom: 2px solid #e6e6e6 !important;
+}
+.navbar-adjust{
+  margin-right: 32px !important;
+}
+
+
+/*abas novo post e novo story*/
+.mat-tab-label{
+  color: #000;
+  border: 0;
+  border-radius: .25rem;
+  /*background-color: #0d6efd;*/
+  margin-left: 10px;
+}
+
+.mat-tab-label-active{
+	/*background-color : #fff;*/
+	
+	border: 3px solid #dcdcdc !important;
+	border-bottom: 1px solid #fff!important;
+}
+
+.mat-tab-body{
+	padding: 70px;
+	border: 3px solid #dcdcdc !important;
+	border-radius: .25rem;
+}
+
+.mat-tab-label-container{
+	margin-bottom: -2px;
+}
+
+.ngx-file-drop__drop-zone[_ngcontent-ejx-c88] {
+	border-radius: 10px;
+}
+
+.upload-table{
+	margin: 40px;
+}
+
+.cell-table-adjust{
+	text-align: center;
+}
+
+.mat-table {
+    background: none;    
+    background-color: none;
+    border-color: grey;
+    border: 2px solid #dcdcdc !important;
+}
+
+.mat-row {
+   
+    border: 2px solid #dcdcdc !important;
+}
+
+
+
+.mat-elevation-z8 {
+    /*box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);*/
+    box-shadow: none;
+}
+
+mat-row, mat-header-row, mat-footer-row, th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    /* border-bottom-color: rgba(255,255,255,.12); */
+    border-bottom-color: none;
+}
+
+th.mat-header-cell:last-of-type, td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+    padding: 30px;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 13px !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.mat-cell, .mat-footer-cell {
+    color: #3a3a3a;
+}
+
+.mat-header-cell {
+    color: #3a3a3a;
+    font-size: 15px;
+}
+
+.section-date-adjust{
+	padding-top: 10px;
+	font-style: italic;
+	color: #a2a2a2;
+}
+
+.username-adjust{
+	font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.user-numbers-adjust{
+	font-style: italic;
+}
